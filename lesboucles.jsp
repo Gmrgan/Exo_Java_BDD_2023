@@ -67,12 +67,12 @@
     <% } %>
     
     <h2>Exercice 6 : Le demi-losange</h2>
-    <% for (int i = 1; i <= cpt; i++) { %>
+        <% for (int i = 1; i <= cpt; i++) { %>
         <p>
         <% for (int j = 0; j < cpt - i; j++) { %>
             <%= "&nbsp;" %>
         <% } %>
-        <% for (int j = 0; j < (2 * i - 1); j++) { %>
+        <% for (int j = 0; j < i; j++) { %>
             <%= "*" %>
         <% } %>
         </p>
@@ -82,7 +82,7 @@
         <% for (int j = 0; j < cpt - i; j++) { %>
             <%= "&nbsp;" %>
         <% } %>
-        <% for (int j = 0; j < (2 * i - 1); j++) { %>
+        <% for (int j = 0; j < i; j++) { %>
             <%= "*" %>
         <% } %>
         </p>
