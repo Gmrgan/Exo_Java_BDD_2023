@@ -89,7 +89,7 @@
     <% } %>
     
     <h2>Exercice 7 : Table de multiplication</h2>
-    <% for (int i = 1; i <= 10; i++) { %>
+    <% for (int i = 1; i <= cpt; i++) { %>
         <p><%= cpt + " x " + i + " = " + (cpt * i) %></p>
     <% } %>
 <% } %>
